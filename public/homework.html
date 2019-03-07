@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+       window.onload=function(){
+           let obj=document.createElement('dd');
+           let third=document.getElementById('third');
+           let dl=document.getElementById('numbers');
+           obj.innerHTML='4';
+           dl.insertBefore(obj,third);
+       }
+    </script>
+</head>
+<body>
+<dl id="numbers">
+    <dd>1</dd>
+    <dd>2</dd>
+    <dd id="third">3</dd>
+</dl>
+
+
+</body>
+</html>
